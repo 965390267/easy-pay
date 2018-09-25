@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    html,body{
+        height: 100%;
+    }
+    </style>
+</head>
+<body>
+    <form name="punchout_form" method="post" action="https://openapi.alipay.com/gateway.do?charset=UTF-8&method=alipay.trade.page.pay&sign=WCR8N4TyLl0qkWchxbrcDgUmYXH%2F6zumq4Bl4ZVB5INN9XTBR2iBkONIT6hZleByt8l86d6PSiFxVBLb5ZcHJqRa9%2Bb3VNuM%2BxIkSMGIf1ehY%2BU1mIilCi5IVXuspxj5wGxCzqS5sDF58qmTeqN8Cr5%2FbVDuOOgLayyaJ3EBTRJLbRu8m%2Fh993NpmcKzV8T2w8bvttse8e94sqYGJh2Z9cNG1KtAex8Bpm%2BmUZtDVWLMBzabbUqIGiF%2BmjjsncbrvRhWpE9aTy4bRUQWgAkw4%2B0lwUXIVbtMKSLWgfU3k3f5Mls8GLONiT0Bv2QAQFstEfwkpzHQwsq6lXGgMdjHFA%3D%3D&version=1.0&app_id=2017071807802834&sign_type=RSA2&timestamp=2018-04-19+17%3A22%3A04&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json
+
+    ">
+    <input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;80419172159482124&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;,&quot;total_amount&quot;:&quot;100&quot;,&quot;subject&quot;:&quot;PC分期测试&quot;,&quot;qr_pay_mode&quot;:&quot;4&quot;,&quot;qrcode_width&quot;:&quot;300&quot;,&quot;extend_params&quot;:{&quot;hb_fq_num&quot;:&quot;3&quot;,&quot;hb_fq_seller_percent&quot;:&quot;0&quot;}}">
+    <input type="submit" value="立即支付" style="display:none" >
+    </form>
+    <script>document.forms[0].submit();</script>
+     
+</body>
+</html>
